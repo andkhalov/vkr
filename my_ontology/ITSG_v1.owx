@@ -1,0 +1,1688 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/andreykhalov/ontologies/2024/3/untitled-ontology-17"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/andreykhalov/ontologies/2024/3/untitled-ontology-17">
+    <Prefix name="" IRI="http://www.semanticweb.org/andreykhalov/ontologies/2024/3/untitled-ontology-17/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Avitim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#GPU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ITSG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Invision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#It_support"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#LAN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ethernet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#АТС"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Аутстаффер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Бухгалтер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Документ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Должность"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Заявка"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ИБП"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ИТ_директор"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ИТ_специалист"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Инструкция"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Инфраструктура"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Инцидент"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Клиент"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Консультант"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Контрагент"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Контракт"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Накладная"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Пользователь"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Поставщик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Презентация"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Протокол"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Рабочая"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Рекламация"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Роль"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Рояль_Кусто"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Служебная"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Смета"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Сотрудник"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Субъект"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Техспецификация"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Фрилансер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Человек"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#автомобиль"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#антивирус"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#базаДанных"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#бухБаза"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#бухгалтерияОтдел"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#вебкамера"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#гаджет"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#дата-центр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#договорАренда"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#договорЗайм"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#договорПродажа"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#договорПроект"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#договорСервис"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#договорТрудовой"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#кабельныеСистемы"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#кадрыОтдел"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#клавиатура"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#коммутатор"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#компьютернаяИнфр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#маркетингОтдел"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#маршрутизатор"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#модем"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#мыш"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ноутбук"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#облачныйСервис"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#операционнаяСистема"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#оптоволокно"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#организационнаяИнфр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#офис"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#парковка"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#периферия"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#пк"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#планшет"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#приложение"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#приложения"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#принтер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#програмнаяИнфр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#продажОтдел"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#производствоОтдел"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#роутер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сервер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сервисОтдел"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сетевоеОборудование"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сканер"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сканерКодов"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#склад"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#смартфон"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#телекоммуникационнаяИнфр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#телефония"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#телефонныйАппарат"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#терминалОплаты"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#техническийОтдел"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#транспортнаяИфр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#управленческийОтдел"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#файловый"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#физическаяИнфр"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#финансовыйОтдел"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#1С"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://itsupport.kz/ontologies/ont.owl#имеетДолжность"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Avitim"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Субъект"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#GPU"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сервер"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Invision"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Субъект"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#It_support"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Субъект"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#LAN"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#кабельныеСистемы"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ethernet"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#кабельныеСистемы"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#АТС"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#телефония"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Аутстаффер"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Роль"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Бухгалтер"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Должность"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Документ"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ITSG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Должность"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Человек"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Заявка"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Документ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ИБП"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#периферия"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ИТ_директор"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Должность"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ИТ_специалист"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Должность"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Инструкция"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Документ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Инфраструктура"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ITSG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Инцидент"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Документ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Клиент"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Контрагент"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Консультант"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Роль"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Контрагент"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ITSG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Контракт"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Документ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Накладная"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Документ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Пользователь"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Роль"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Поставщик"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Контрагент"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Презентация"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Документ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Протокол"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Документ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Рабочая"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Инструкция"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Рекламация"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Документ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Роль"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Человек"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Рояль_Кусто"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Субъект"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Служебная"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Инструкция"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Смета"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Документ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Сотрудник"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Роль"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Субъект"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ITSG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Техспецификация"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Документ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Фрилансер"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Роль"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Человек"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ITSG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#автомобиль"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#транспортнаяИфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#антивирус"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#програмнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#базаДанных"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#програмнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#бухБаза"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сервер"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#бухгалтерияОтдел"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#организационнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#вебкамера"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#периферия"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#гаджет"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#компьютернаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#дата-центр"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#физическаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#договорАренда"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Контракт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#договорЗайм"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Контракт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#договорПродажа"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Контракт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#договорПроект"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Контракт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#договорСервис"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Контракт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#договорТрудовой"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Контракт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#кабельныеСистемы"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#телекоммуникационнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#кадрыОтдел"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#организационнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#клавиатура"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#периферия"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#коммутатор"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сетевоеОборудование"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#компьютернаяИнфр"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Инфраструктура"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#маркетингОтдел"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#организационнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#маршрутизатор"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сетевоеОборудование"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#модем"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сетевоеОборудование"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#мыш"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#периферия"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#ноутбук"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#компьютернаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#облачныйСервис"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#програмнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#операционнаяСистема"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#програмнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#оптоволокно"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#кабельныеСистемы"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#организационнаяИнфр"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Инфраструктура"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#офис"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#физическаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#парковка"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#транспортнаяИфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#периферия"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#компьютернаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#пк"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#компьютернаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#планшет"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#гаджет"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#приложение"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#програмнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#приложения"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сервер"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#принтер"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#периферия"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#програмнаяИнфр"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Инфраструктура"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#продажОтдел"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#организационнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#производствоОтдел"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#организационнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#роутер"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сетевоеОборудование"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сервер"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#телекоммуникационнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сервисОтдел"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#организационнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сетевоеОборудование"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#телекоммуникационнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сканер"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#периферия"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сканерКодов"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#гаджет"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#склад"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#физическаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#смартфон"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#гаджет"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#телекоммуникационнаяИнфр"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Инфраструктура"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#телефония"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#телекоммуникационнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#телефонныйАппарат"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#телефония"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#терминалОплаты"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#гаджет"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#техническийОтдел"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#организационнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#транспортнаяИфр"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Инфраструктура"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#управленческийОтдел"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#организационнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#файловый"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#сервер"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#физическаяИнфр"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Инфраструктура"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#финансовыйОтдел"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#организационнаяИнфр"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#1С"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#програмнаяИнфр"/>
+    </SubClassOf>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://itsupport.kz/ontologies/ont.owl#имеетДолжность"/>
+        <Class IRI="https://itsupport.kz/ontologies/ont.owl#Должность"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Avitim</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Avitim</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:12:33Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#GPU</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#GPU</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T11:01:33Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#ITSG</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#ITSG</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:11:31Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Invision</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Invision</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:12:39Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#It_support</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#It_support</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:12:28Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#LAN</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#LAN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T11:01:03Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#ethernet</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#ethernet</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T11:00:41Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#АТС</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#АТС</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:52:01Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Аутстаффер</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Аутстаффер</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T11:06:21Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Бухгалтер</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Бухгалтер</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:14:47Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Документ</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Документ</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:01:40Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Должность</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Должность</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:26:25Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Заявка</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Заявка</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:09:18Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#ИБП</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#ИБП</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:58:52Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#ИТ_директор</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#ИТ_директор</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:15:10Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#ИТ_специалист</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#ИТ_специалист</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:15:02Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Инструкция</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Инструкция</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:05:14Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Инфраструктура</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Инфраструктура</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:21:34Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Инцидент</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Инцидент</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:09:56Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Клиент</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Клиент</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:11:59Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Консультант</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Консультант</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:15:24Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Контрагент</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Контрагент</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:00:45Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Контракт</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Контракт</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:02:29Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Накладная</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Накладная</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:05:53Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Пользователь</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Пользователь</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:14:19Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Поставщик</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Поставщик</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:13:26Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Презентация</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Презентация</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:06:04Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Протокол</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Протокол</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:05:20Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Рабочая</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Рабочая</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:06:20Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Рекламация</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Рекламация</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:09:48Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Роль</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Роль</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:13:06Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Рояль_Кусто</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Рояль_Кусто</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:12:44Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Служебная</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Служебная</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:07:15Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Смета</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Смета</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:05:34Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Сотрудник</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Сотрудник</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:13:35Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Субъект</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Субъект</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:11:53Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Техспецификация</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Техспецификация</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:05:46Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Фрилансер</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Фрилансер</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:15:00Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Человек</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#Человек</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:12:24Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#автомобиль</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#автомобиль</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:59:49Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#антивирус</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#антивирус</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:57:44Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#базаДанных</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#базаДанных</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:57:12Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#бухБаза</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#бухБаза</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T11:01:42Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#бухгалтерияОтдел</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#бухгалтерияОтдел</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:34:49Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#вебкамера</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#вебкамера</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:50:11Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#гаджет</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#гаджет</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:48:02Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#дата-центр</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#дата-центр</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:55:46Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#договорАренда</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#договорАренда</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:03:38Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#договорЗайм</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#договорЗайм</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:04:42Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#договорПродажа</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#договорПродажа</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:05:01Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#договорПроект</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#договорПроект</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:03:43Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#договорСервис</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#договорСервис</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:03:30Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#договорТрудовой</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#договорТрудовой</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T09:02:55Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#имеетДолжность</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#имеетДолжность</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:24:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#кабельныеСистемы</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#кабельныеСистемы</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:45:52Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#кадрыОтдел</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#кадрыОтдел</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:35:14Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#клавиатура</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#клавиатура</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:50:06Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#коммутатор</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#коммутатор</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T11:02:03Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#компьютернаяИнфр</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#компьютернаяИнфр</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:46:45Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#маркетингОтдел</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#маркетингОтдел</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:35:49Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#маршрутизатор</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#маршрутизатор</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T11:02:27Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#модем</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#модем</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T11:02:09Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#мыш</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#мыш</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:50:21Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#ноутбук</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#ноутбук</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:47:56Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#облачныйСервис</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#облачныйСервис</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:57:23Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#операционнаяСистема</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#операционнаяСистема</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:57:06Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#оптоволокно</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#оптоволокно</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T11:00:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#организационнаяИнфр</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#организационнаяИнфр</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:29:19Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#офис</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#офис</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:55:59Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#парковка</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#парковка</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:59:54Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#периферия</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#периферия</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:48:09Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#пк</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#пк</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:47:50Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#планшет</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#планшет</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:49:46Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#приложение</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#приложение</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:57:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#приложения</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#приложения</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T11:01:26Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#принтер</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#принтер</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:49:50Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#програмнаяИнфр</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#програмнаяИнфр</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:56:53Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#продажОтдел</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#продажОтдел</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:38:23Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#производствоОтдел</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#производствоОтдел</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:36:03Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#роутер</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#роутер</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T11:01:57Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#сервер</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#сервер</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T08:16:03Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#сервисОтдел</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#сервисОтдел</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:38:51Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#сетевоеОборудование</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#сетевоеОборудование</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:44:23Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#сканер</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#сканер</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:49:54Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#сканерКодов</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#сканерКодов</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:48:40Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#склад</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#склад</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:56:23Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#смартфон</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#смартфон</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:48:33Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#телекоммуникационнаяИнфр</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#телекоммуникационнаяИнфр</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:41:21Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#телефония</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#телефония</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:46:02Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#телефонныйАппарат</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#телефонныйАппарат</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:52:08Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#терминалОплаты</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#терминалОплаты</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:48:20Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#техническийОтдел</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#техническийОтдел</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:35:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#транспортнаяИфр</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#транспортнаяИфр</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:59:44Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#управленческийОтдел</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#управленческийОтдел</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:35:08Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#файловый</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#файловый</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T11:01:16Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#физическаяИнфр</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#физическаяИнфр</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:55:34Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#финансовыйОтдел</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#финансовыйОтдел</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:35:24Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#1С</IRI>
+        <Literal>andreykhalov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>https://itsupport.kz/ontologies/ont.owl#1С</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-30T10:58:20Z</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
